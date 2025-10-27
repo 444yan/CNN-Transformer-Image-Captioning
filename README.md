@@ -27,14 +27,23 @@ The encoder is frozen during training for efficiency, while the Transformer lear
 
 ## How to Run
 
-The notebook is designed to run in **Google Colab** with the Flickr8k dataset and the model weights stored in your Google Drive.
+Because the full training notebook is large, both the **Jupyter notebook** and **pretrained weights** are provided under the repository’s [Releases](https://github.com/444yan/CNN-Transformer-Image-Captioning/releases).
 
-**Open the notebook in Colab:**  
-[Open in Google Colab](https://colab.research.google.com/github/444yan/CNN-Transformer-Image-Captioning/blob/main/Image_Captioning_Model.ipynb)
+To reproduce the results or run inference, download both files and use them in your own Google Colab environment.
+
+**Files required:**
+- `Image_Captioning_Model.ipynb` – the complete training and inference notebook  
+- `image_caption_weights.pt` – pretrained model weights
 
 ---
 
-### 1. Download the dataset
+### 1. Set up the environment
+1. Open [Google Colab](https://colab.research.google.com).  
+2. Click **File → Upload notebook** and select the downloaded `Image_Captioning_Model.ipynb` file.  
+3. Ensure your runtime is set to **GPU**:
+
+
+### 1. Download + Place the dataset
 Download the [Flickr8k dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k) from Kaggle.  
 After extracting it, you should have a folder that includes:
 
@@ -46,9 +55,9 @@ Upload this folder to your Google Drive.
 
 ---
 
-### 2. Download pretrained weights
-Download the pretrained weights provided in this repository’s [Releases](https://github.com/444yan/CNN-Transformer-Image-Captioning/releases).  
-Save the file `image_caption_weights.pt` directly in your Google Drive root folder:
+### 2. Download + Place pretrained weights
+after pretrained weights provided in this repository’s [Releases](https://github.com/444yan/CNN-Transformer-Image-Captioning/releases).  
+Save the file `image_caption_weights.pt` directly in your Google Drive root folder.
 
 
 ---
