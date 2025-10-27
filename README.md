@@ -27,7 +27,9 @@ The encoder is frozen during training for efficiency, while the Transformer lear
 
 ## How to Run
 
-The notebook is designed to run in **Google Colab** with the Flickr8k dataset and the model weights stored in your Google Drive.
+The notebook is designed to run in **Google Colab** with the Flickr8k dataset and the model weights stored in your Google Drive.#
+
+https://colab.research.google.com/github/444yan/image-captioning-transformer/blob/main/Image_Captioning_Model.ipynb
 
 ### 1. Download the dataset
 Download the [Flickr8k dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k) from Kaggle.  
